@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "engines": {
-    "npm": "7.4.0",
-    "node":"15.6.0"
-  },
+"engines": {
+  "node": "22.x"
+},
   "scripts": {
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
